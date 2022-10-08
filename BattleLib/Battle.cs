@@ -1,7 +1,8 @@
-﻿namespace BattleLib;
-
-public class Battle
+﻿namespace BattleLib
 {
-    public Creature[] Team;
-    public Creature[] Opponents;
+    public class Battle
+    {
+        public Creature[] Team;
+        public Creature[] Opponents;
+    }
 }
